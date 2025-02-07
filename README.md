@@ -37,8 +37,14 @@ npm install
 ```
 
 #### 📌 Frontend (React)
+Si `src/` no contiene un `package.json`, inicializa el frontend como un proyecto React:
 ```bash
 cd ../src
+npx create-react-app .  
+npm install
+```
+Si `package.json` ya existe, solo ejecuta:
+```bash
 npm install
 ```
 
